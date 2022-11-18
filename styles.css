@@ -7,8 +7,22 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 .avatar {
   width: 400px;
+  margin-top: 70px;
+}
+
+.header{width: 100%;
+position: fixed;
 }
 
 .header>div {
@@ -16,9 +30,12 @@ body {
   background-color: darkblue;
   color: white;
   height: 50px;
-  width: 16.66%;
-  border: 1px solid lightblue;
+  width: 16%;
+  box-shadow: 3px 3px 3px 3px grey;
   box-sizing: border-box;
+  border-radius: 0px 0px 10px 10px;
+  margin-right: 5px;
+  top: 0px;
 }
 
 .container {
@@ -29,10 +46,7 @@ body {
 
 
 
-a {
-  color: black;
-  text-decoration: none;
-}
+
 a:hover {
   text-decoration: underline;
 }
