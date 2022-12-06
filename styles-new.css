@@ -36,37 +36,31 @@ position: fixed;
   padding-top: 12px;
 }
 
-.container {
-  max-width: 1000px;
-  margin: auto;
+.nav a{
+  color: white;
+  text-decoration: none;
 }
 
-.avatar {
+.container {
+  float: left;
+  max-width: 1000px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.container li{
+  list-style: none;
+}
+
+.avatar{
   width: 400px;
   margin-top: 70px;
+  margin-left: 40px;
+  float: left;
 }
 
-#link1 {
-  color: white;
-  text-decoration: none;
-}
-#link2 {
-  color: white;
-  text-decoration: none;
-}
-#link3 {
-  color: white;
-  text-decoration: none;
-}
-#link4 {
-  color: white;
-  text-decoration: none;
-}
-#link5 {
-  color: white;
-  text-decoration: none;
-}
-#link6 {
-  color: white;
-  text-decoration: none;
+.header{
+  overflow: hidden;
+  padding-top: 250px;
+  padding-left: 100px;
 }
